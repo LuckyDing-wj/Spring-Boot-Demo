@@ -1,0 +1,31 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /lucky
+
+spring:
+  profiles:
+    active: sit
+
+---
+# yml \u6587\u6863\u5757
+spring:
+  profiles:
+    default: sit
+server:
+  port: 8085
+
+
+
+#person:
+#  lastName: ding
+#  age: ${random.int}
+#  boss: false
+#  birth: 2020/05/22
+#  maps: {k1 : v1, k2 : v2}
+#  lists:
+#    - aaa
+#    - bbb
+#  dog:
+#    name: ${person.lastName:lucky}'s dog - kele
+#    age: 3
