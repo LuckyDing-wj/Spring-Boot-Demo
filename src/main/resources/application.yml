@@ -14,7 +14,13 @@ spring:
     default: sit
 server:
   port: 8082
-
+logging:
+  level:
+    com: debug
+#  file:
+#    path will not effective if setup name
+#    path: D:\
+#    name: core.log
 
 
 #person:
