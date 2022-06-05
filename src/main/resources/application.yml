@@ -1,27 +1,31 @@
 server:
   port: 8081
-  servlet:
-    context-path: /lucky
+#  servlet:
+#    context-path: /lucky
 
-spring:
-  profiles:
-    active: sit
+#spring:
+#  profiles:
+#    active: sit
 
 ---
 # yml \u6587\u6863\u5757
-spring:
-  profiles:
-    default: sit
-server:
-  port: 8082
-logging:
-  level:
-    com: debug
+#spring:
+#  profiles:
+#    default: sit
+#  mvc:
+#    static-path-pattern: "/resources/**"
+#  web:
+#    resources:
+#      add-mappings: true
+#server:
+#  port: 8080
+#logging:
+#  level:
+#    com: info
 #  file:
 #    path will not effective if setup name
 #    path: D:\
 #    name: core.log
-
 
 #person:
 #  lastName: ding
