@@ -3,10 +3,13 @@ server:
 #  servlet:
 #    context-path: /lucky
 
+
 #spring:
 #  profiles:
 #    active: sit
-
+spring:
+  thymeleaf:
+    cache: false
 ---
 # yml \u6587\u6863\u5757
 #spring:
